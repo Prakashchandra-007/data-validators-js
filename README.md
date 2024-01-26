@@ -1,29 +1,20 @@
-data-validators-js
-🧾 JavaScript Data Validators for Robust Data Validation
+---
 
-The data-validators-js package offers a versatile set of JavaScript data validators, simplifying the process of validating user inputs, API payloads, and diverse data types. Ensure data integrity effortlessly with this comprehensive validation toolkit.
+# data-validators-js
 
-🚀 Key Features:
+**Data Validators for JavaScript**
 
-Versatile validators for strings, numbers, arrays, and more.
-Create custom validation rules tailored to your use cases.
-Chain validators for complex scenarios with a clear and concise syntax.
-Detailed error messages for easy debugging.
-📦 Installation:
+The `data-validators-js` package provides a comprehensive set of data validators for JavaScript, empowering developers to easily implement robust data validation in their applications. Whether you're validating user inputs, API payloads, or any other form of data, this package simplifies the process and ensures data integrity.
 
-bash
-Copy code
+## Features
+
+- **Versatile Validators:** A wide range of validators for common data types such as strings, numbers, arrays, and more.
+- **Custom Validation Rules:** Easily define and apply custom validation rules tailored to your specific use cases.
+- **Chaining Validators:** Combine multiple validators to create complex validation scenarios with a clear and concise syntax.
+- **Error Handling:** Detailed error messages help identify validation failures and facilitate debugging.
+
+## Installation
+
+```bash
 npm install data-validators-js
-📖 Documentation:
-Explore the API documentation for in-depth information on usage and available validators.
-
-🔧 Getting Started:
-
-Install the package using npm install data-validators-js.
-Import the validator module in your JavaScript file.
-Start using the validators to ensure data integrity in your application.
-👉 GitHub Repository:
-Visit the repository for the latest updates, bug reports, and feature requests.
-
-📄 License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
