@@ -1,0 +1,21 @@
+{
+  "name": "data-validators-js",
+  "version": "1.0.1",
+  "description": "A versatile data validation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "validation",
+    "data",
+    "npm",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^9.0.3"
+  }
+}
