@@ -18,3 +18,11 @@ The `data-validators-js` package provides a comprehensive set of data validators
 ```bash
 npm install data-validators-js
 ```
+
+## Usage
+
+```
+const { inputValidators } = require("data-validators-js");
+console.log(inputValidators.isValidateEmail('abs@gmail.com'))
+console.log(inputValidators.isValidNumber("23d"));
+```
