@@ -69,6 +69,22 @@ function isValidatePhoneNumber(phoneNumber) {
   // Check if the cleaned number has at least 5 digits (a minimal assumption)
   return cleanNumber.length >= 5;
 }
+function isAlphanumeric(inputString) {
+  // Check if the string is not empty
+  if (!inputString) {
+    return false;
+  }
+
+  // Use a regular expression to check if the string consists of only alphanumeric characters
+  const alphanumericRegex = /^[a-zA-Z0-9]+$/;
+  return alphanumericRegex.test(inputString);
+}
+
+function isFalsy(value) {
+  // Check if the value is falsy (evaluates to false)
+  return !value;
+}
+
 module.exports = {
   isNotEmpty,
   isValidNumber,
@@ -76,4 +92,6 @@ module.exports = {
   maxLength,
   minLength,
   isValidatePhoneNumber,
+  isAlphanumeric,
+  isFalsy,
 };
