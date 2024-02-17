@@ -31,3 +31,5 @@ Contributions Welcome: We welcome contributions from the community! Feel free to
 Getting Started: Check out our contributing guidelines to learn how you can get involved. Whether you're a seasoned developer or just getting started, there are plenty of ways to contribute!
 
 Together We Grow: By collaborating together, we can make this package even better. Join us in building a robust and reliable data validation solution for JavaScript!
+
+for any suggestion please send a email on prakashchandramuduli007@gmail.com
